@@ -1,0 +1,55 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(197, 197, 197);
+}
+.allOfEm {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: space-between;
+    background-color: white;
+    border-left: 8px;
+    border-right: 8px;
+}
+#item1{
+    width: 33%;
+}
+#item2{
+    width: 33%;
+}
+#item3{
+    width: 33%;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+#dark {
+    background-color: rgb(214, 213, 213);
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+    border: 1px black solid;
+  }
+  
+#dark:hover {
+    cursor: pointer;
+  }
+.darkMode{
+    background-color: rgb(77, 76, 76);
+    color: white;
+}
+.darkM{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+.darkMode h1{
+    background-color: rgb(77, 76, 76);
+    color: white; 
+}
